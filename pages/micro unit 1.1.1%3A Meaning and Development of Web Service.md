@@ -1,0 +1,32 @@
+- Meaning of Web Service
+	- ความหมายของ Service: ในด้านเทดโนโลยีพิจารณาความหมายของบริการเป็นกระบวนการ (process) โดยผู้ใช้งานไม่จำเป็นต้องสนใจว่าบริการนั้นมีขั้นตอนการทำงานอย่างไร หรือมีเทนโนโลยีอะไรสนับสนุนบ้าง แต่มีวัตุประสงค์หลักเพื่อให้บริการนั้นเสร็จสิ้นและผลลัพท์ออกมาตามที่ผู้ใช้งานต้องการจากการขอใช้บริการ
+	- ความหมายของ Service ในด้าน Software: เป็น Software Component ที่อาจเป็น Function หรือ Module ที่มีกระบวนการภายในซึ่งสามารถรับ Input เข้ามาเพื่อประมวลผลและส่งผลลัพท์กลับไป Software เหล่านี้จะถูกกำหนดเป็น Business Process หรือก็คือทำงานเฉพาะการประมวลซึ่งจะไม่เกี่ยวข้องกับการแสดงผล (Presentation Logic) เลย
+	- ความหมายของ Web Service คือ Software ที่ออกแบบมาเพื่อสนับสนุนการแลกเปลี่ยนข้อมูลกันระหว่าง Computer บน Network ด้วยภาษา XML และมี Interface ที่อธิบายรูปแบบข้อมูลที่ Computer ประมวลผลได้
+-
+- Generation of Web
+	- Static Web Generation: ยุคแรกของการสร้าง Web บน Internet จะมีเพียงการนำเสนอข้อมูลอย่างเดียว มีการเปลี่ยนแปลงน้อย และไม่มีการโต้ตอบกับผู้ใช้ ใช้ภาษา HTML หรือ Client-site Script เป็นต้น
+	- Dynamic Web Generation: มีการตอบโต้กับผู้ใช้มากขึ้น การปรับเปลี่ยนข้อมูลบนฝั่ง server สามารถทำได้และมีการใช้งาน Server-site Script เพื่อเพิ่มความสามารถของ HTML ช่วงแรกใช้ CGI ร่วมกับ C หรือ Pearl ต่อมามีการพัฒนาภาษาเพิ่มขึ้นาเช่น `PHP` `ASP` `JSP`
+	- Web Service Generation: เป็นยุคของการให้บริการผ่าน Application บน Web โดยผู้ใช้สามารถเรียกใช้บริการที่มีอยู่ได้ทันทีโดยไม่ต้องพัฒนาหรือติดตั้ง Application นั้นเอาไว้บน Web Server ของตนเองโดยใช้ Technology ที่เกี่ยวข้องกับ Web Service เช่น `.NET` `J2EE`  `Axis` `nuSOAP` `Glue`
+-
+- Web Service จัดเป็น `SOA`
+-
+- คำศัพท์ที่ควรจำ
+	- Protocol
+		- **HTTP** (Hypertext Transfer Protocol): เป็นโปรโตคอลหรือชุดของกฎการสื่อสารสำหรับการสื่อสารไคลเอ็นต์เซิร์ฟเวอร์ เมื่อคุณเยี่ยมชมเว็บไซต์ เบราว์เซอร์ของคุณจะส่งคำขอ HTTP ไปยังเว็บเซิร์ฟเวอร์ซึ่งตอบสนองด้วยการตอบสนองของ HTTP เว็บเซิร์ฟเวอร์และเบราว์เซอร์ของคุณจะแลกเปลี่ยนข้อมูลเป็นข้อความธรรมดา
+		- **SOAP** (Simple Object Access Protocol): คือ protocol specification ชนิดหนึ่งที่ใช้สำหรับแลกเปลี่ยนข้อมูล ผ่านทาง Web Service ระหว่าง network ในรูปแบบ XML format โดยทำงานอยู่ใน application layer (OSI layer) มักจะอาศัย protocol HTTP หรือ SMTP ในการส่งข้อมูลระหว่างกัน
+	- Language
+		- **HTML** (Hypertext Markup Language): ภาษาที่ Web Browser ใช้ในการแสดงผล
+		- **WSLD** (Web Services Description Language): เอกสารข้อมูลในรูปแบบ ใช้ในการบอกหน้าที่การทำงานของ Web Service อยู่ในรูปของ XML มักถูกใช้งานควบคู่กับ SOAP เพื่อให้ข้อมูล XML Schema หรือโครงสร้างของ Web service
+		- **XML** (eXtensive Markup Language): ภาษาที่ใช้อธิบายโครงสร้างข้อมูลที่ส่งไปมาในการสื่อสารระหว่าง Application จัดเป็นส่วนหนึ่งของภาษา HTML
+		- **PHP** (PHP Hypertext Preprocessor): ภาษาคอมพิวเตอร์จำพวก scripting language ได้รับการพัฒนาและออกแบบมา เพื่อใช้งานในการสร้างเอกสารแบบ HTMLโดยสามารถสอดแทรกหรือแก้ไขเนื้อหาได้โดยอัตโนมัติ ดังนั้นจึงกล่าวว่า PHP เป็นภาษาที่เรียกว่า server-side scripting หรือ HTML-embedded scripting language เป็น **Open Source**
+		- **ASP** (Active Server Pages): คือโปรแกรมที่ทำงานบนเครื่อง Web Server เรียกว่าเป็นการทำงานแบบ server-side scripting พัฒนาโดยบริษัท Microsoft
+		- **JSP** (Java Server Page): ป็นภาษาที่พัฒนาโดย บริษัท Sun Microsystems (ซัน ไมโครซิสเต็ม) ดังนั้น JSP ก็คือภาษา script (สคริปต์) ที่ทำงานอยู่ในส่วนของฝั่งเซิร์ฟเวอร์ ซึ่งเรียกว่า server-side scripting
+	- Technical Term
+		- **Distributed Computing**: การประมวลผลแบบกระจายตัว
+		- **Proprietary Technology**: เทคโนโลยีเฉพาะด้าน ที่เป็นลิขสิทธิของผู้คิดค้น เช่น
+			- **RMI** (Remote Method Invocation)
+			- **CORBA** (Common Object Request Broker Architecture)
+			- **DCOM** (Distribute Component Object Model)
+		- **SOA** (Service Oriented Architecture): แนวคิดในการพัฒนาระบบงานประยุกต์ (Application) ภายในองค์กรที่มีอยู่หลากหลายให้สามารถเชื่อมโยงและแลกเปลี่ยนข้อมูลกันได้โดยอัตโนมัติมากขึ้น ไม่ว่าจะเป็นข้อมูลใน Platform หรือ Application ที่แตกต่างกันก็ตาม
+		- **Middleware**: เป็นตัวกลางการสื่อสารระหว่าง Application ไปยังระบบต่างๆ หรือ ผู้ใช้
+		- **Web Hosting**: เว็บไซท์ที่ให้บริการรับฝากข้อมูลบน Internet
