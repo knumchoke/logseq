@@ -55,10 +55,25 @@
 	- แต่ละ Service จะเป็นเหมือน Function ที่มี method หรือหน้าที่ที่ชัดเจนบางอย่าง
 	- Function ในบริการเป็นสิ่งที่ผู้ใช้ไม่ว่าจะเป็นใครสามารถเรียกใช้ได้ เช่น Application อาจจะถูกเรียกให้ทำงานโดย Application จาก Server อื่นได้
 	- แต่ละ Service เป็นอิสระต่อกัน
+	- Silo-Oriented Architecture เป็นการพัฒนาระบบ IT ในแต่ละระบบต่างเป็นอิสระต่อกัน อาจมี Technology แตกต่างกันทำให้ยากแก่การเชื่อมต่อ บำรุงรักษายาก มีค่าใช้จ่ายสูง ปรับเปลี่ยนได้ยาก และพัฒนาได้ล่าช้า
+	- SAO จะเป็นจัดระบบ Silo ใหม่โดยแยกเป็น Layer
+	  ![silo-service.png](../assets/silo-service_1703525194906_0.png)
+	  ![soa-layer.png](../assets/soa-layer_1703611578639_0.png)
+	  ประกอบด้วย
+		- **Resource Layer**: Infrastructure ต่างๆ เช่น DB , SAP
+		- **Service Layer**: ที่รวมของ service ต่างๆ ที่สามารถ reuse ได้ โดยพัฒนาขึ้นมาจากการใช้ทรัพยากรจาก resource layer
+		- **Process Layer**: เป็นชั้นของ Business Process/ Business Logic ที่อาศัยการทำงานของ module ต่างๆ ใน Service Layer
+		- **Access Layer**: เป็นชั้นของการเรียกใช้ Business Process/ Business Logic ใน Process Layer อาจจะเป็น Website หรือ Mobile App ก็ได้
+- Reason to develop SOA
+	- ทำให้ข้อมูลต่างๆ ภายในองค์กรเชื่อมโยงกัน
+	- ลดค่าใช้จ่ายในการบำรุงรักษา
+	- พัฒนา Software ใหม่ได้เร็วขึ้น
+	- ทำให้ระบบเป็นอิสระจาก Tectnology และ Platform
+- Benefit to develop SOA
+	- สามารถเชื่อมโยงระบบ IT ที่แตกต่างกันได้
+	- ระบบ IT สามารถปรับเปลี่ยนได้ง่าย
+	- ลดค่าใช้จ่ายในการบำรุงรักษา และให้ผลตอบแทนที่คุ้มค่า
+	- การทำงานของฝ่ายธุรกิจและ IT จะสอดคล้องกันมากขึ้น: เมื่อระบบถูกจัดวางตาม SOA จะมีความเรียบง่าย และสามารถอธิบายให้หน่วยงานทางธุรกิจเข้าใจกระบวนการได้ง่ายขึ้น จะทำให้สามารถร่วมกันพัฒนาได้
 -
-- Silo-Oriented Architecture เป็นการพัฒนาระบบ IT ในแต่ละระบบต่างเป็นอิสระต่อกัน อาจมี Technology แตกต่างกันทำให้ยากแก่การเชื่อมต่อ บำรุงรักษายาก มีค่าใช้จ่ายสูง ปรับเปลี่ยนได้ยาก และพัฒนาได้ล่าช้า
-- SAO จะเป็นจัดระบบ Silo ใหม่โดยแยกเป็น Layer
-  ![silo-service.png](../assets/silo-service_1703525194906_0.png)
-  ประกอบด้วย
-	- Resource Layer: Infrastructure ต่างๆ เช่น DB , SAP
-	- Service Layer:
+- คำศัพท์ที่ควรจำ
+	-
