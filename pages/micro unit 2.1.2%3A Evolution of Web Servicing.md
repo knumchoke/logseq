@@ -40,5 +40,9 @@
 	- เพื่อสนับสนุนการนำ Component มา Reuse โดยเขียน Software เป็น Library แล้วนำไปเก็บไว้ที่ Server แทนการรวมกับ Application
 	- เพื่อสนับสนุนการส่งข้อมูลข้าม Application โดยสะดวก ไม่ขึ้นกับ Platform หรือ ภาษาที่ใช้พัฒนา
 - Principles and reasons for developing a web-based service system
--
--
+	- Web Services แตกต่างจาก Web Application และ Application ที่ใช้ Distributed Computing
+	  มีความต่างกันในแง่ของ Protocol และหลักการที่ใช้ใน Technogoly Distributed Computing
+		- Web Application เป็นโปรแกรมเพื่อ End-User สามารถโต้ตอบกับผู้ใช้ผ่าน Web ได้ แต่ Application ที่ใช้ Distributed Computing เป็น Software Service ไม่สามารถเรียกใช้จาก User หลากหลายได้
+		- Application ที่ใช้ Distributed Computing มีข้อจำกัดที่การยึดติดกับ Protocol เฉพาะที่เป็นของ Technology นั้นๆ
+	- เหตุผลและข้อดี
+		-
