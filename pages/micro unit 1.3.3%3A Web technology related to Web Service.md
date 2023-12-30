@@ -1,0 +1,38 @@
+- Web Server Technology
+	- Apache
+		- นิยมบน Linux
+		- สร้างโดย Netscape Communication Corperation
+		- เป็น Open Source
+		- ลักษณะของ Apache
+			- โมดูลแกนกลางทำหน้าที่บริหารจัดการส่วนต่างๆ ทั้งหมด
+			- โมดูลบริหารหน่วยความจำ
+			- โมดูลบริหารส่วนประมวลผลย่อย (Child Process)
+		- รองรับการทำงานหลายลักษณะ ได้แก่
+			- Worker: รองรับงานจำนวนมากแต่ต้องการ memory น้อย
+			- Pre-fork: เพื่องานประสิทธิภาพสูง ใช้ทรัพยากรมาก
+			- Per Child: รองรับงานที่มีความแตกต่างกันของผู้ใช้
+		- มีส่วนเสริมการทำงานเพื่อเพิ่มประสิทธิภาพ เช่น
+			- Mirror Site: สามารถสำเนาข้อมูลของ Web Site ที่ได้รับอนุญาตมาเก็บไว้เพื่อให้บริการได้
+			- Web Directory: เปลี่ยนเส้นทางการเข้าระบบของผู้ใช้ได้
+			- รอบรับการทำ Web page หรือ Site ส่วนตัวของ User ได้
+			- Virtual Host: สามารถให้บริการได้มากกว่า 1 Web Site ใน host เดียวและสามารถใช้ IP Address ร่วมกันได้
+	- IIS (Internet Information Services)
+		- เป็นของ Microsoft
+-
+- Web Service Related Technology
+	- Social Network: การติดต่อกันของ User บนเครือข่าย Internet ผ่าน Web Site หรือ Application อื่นๆ โดยอาจจะแยกกันเป็นกลุ่มก้อนที่มีความนิยมในบางเรื่องใกล้เคียงกัน
+	- Virtual Community: การรวมกันของ User ใน Online Platform ต่างๆ เช่น Facebook Hi5 MySpace Twitter
+	- Blog: รูปแบบการนำเสนอข้อมูลโดยใช้ประโยชน์จาก Web Application สำเร็จรูปที่ User สามารถเขียนเนื้อหาและกำหนดรูปแบบของ Web Page ได้เองโดยอาจจะไม่จำเป็นต้องรู้ภาษา HTML เลยก็ได้
+	- Web 2.0: การมาถึงยุคที่ Web Site สามารถตอบสนองกับผู้ใช้งานได้มากขึ้น (Read-Write)
+		- ปัจจัยของการเปลี่ยนแปลงดังนี้
+			- The User Rules: Platform หรือผู้ให้บริการต้องให้ความสำคัญกับผู้ใช้มากขึ้น
+			- Thin Client Computing: Web Browser สามารถประมวลผล script ได้ดีขึ้นทำให้ Computer ที่ User ใช้งานไม่จำเป็นต้องมีประสิทธิภาพสูงก็สามารถใช้งาน Web Site ได้
+		- คุณสมบัติของ Web 2.0
+			- ให้ความสำคัญกับผู้ใช้มากขึ้น
+			- มี UI ที่ดีขึ้นและมีคุณสมบัติของ RIA
+			- เน้นวัตถุประสงค์และรูปแบบที่สนับสนุนการสร้าง Virtual Community
+			- มีบริการต่างๆ เพื่อตอบสนองความต้องการของผู้ใช้อย่างเต็มที่
+			- การประมวลผลต่างๆ ทำบน Web Browser โดยอาศัย Technology ต่างๆ เช่น AJAX XML Feed RSS และการทำ mash-up เข้ากับ Google Map เพื่อเพิ่มประสิทธิภาพในการเสนอขายสินค้า Online
+	- Web 3.0: ยังไม่มีความชัดเจน
+		- ผู้คิดค้น www คาดการว่า web 3.0 จะเป็น semantic web
+		- การเก็บ data แบบ decentralized
