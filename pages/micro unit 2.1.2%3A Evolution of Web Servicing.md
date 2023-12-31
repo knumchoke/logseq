@@ -43,6 +43,16 @@
 	- Web Services แตกต่างจาก Web Application และ Application ที่ใช้ Distributed Computing
 	  มีความต่างกันในแง่ของ Protocol และหลักการที่ใช้ใน Technogoly Distributed Computing
 		- Web Application เป็นโปรแกรมเพื่อ End-User สามารถโต้ตอบกับผู้ใช้ผ่าน Web ได้ แต่ Application ที่ใช้ Distributed Computing เป็น Software Service ไม่สามารถเรียกใช้จาก User หลากหลายได้
-		- Application ที่ใช้ Distributed Computing มีข้อจำกัดที่การยึดติดกับ Protocol เฉพาะที่เป็นของ Technology นั้นๆ
-	- เหตุผลและข้อดี
-		-
+		- Application ที่ใช้ Distributed Computing มีข้อจำกัดที่การยึดติดกับ Protocol เฉพาะที่เป็นของ Technology นั้นๆ เช่น `RMI` `COBRA`
+	- เหตุผลและข้อดีที่ควรเลือกพัฒนาระบบงานเป็น Web Services มากกว่าที่จะเลือก Web Application หรือ Application ที่ใช้ Distributed Computing
+		- Web Services ใช้ Protocol มาตฐานรูปแบบ XML
+		- Web Services สามารถเรียกใช้ได้จาก XML-based RPC + HTTP จึงทำให้เรียกใช้ผ่านการป้องกันของ Firewall ได้
+		- Web Services สนับสนุน Solution ในการข้าม Platform โดยใช้ XML
+		- Web Services สามารถถูกรียกใช้จาก Application อื่นๆ ได้ผ่าน Internet Protocol แต่ Web Application จะเป็นการเรียกใช้โดยตรงจาก User
+		- Web Services มีจุดเด่นหลายข้อคือ
+			- Interoperability
+			- Economical
+			- Autometic
+			- Accessible
+			- Available
+			- Scalable

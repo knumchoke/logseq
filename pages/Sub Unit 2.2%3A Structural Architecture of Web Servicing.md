@@ -1,2 +1,2 @@
-- [[micro unit 2.2.1: Basic Characteristic of Web Servicing]]
+- [[micro unit 2.2.1: Basic Features of Web Services]]
 - [[micro unit 2.2.2: Model and Architecture of Web Servicing]]
