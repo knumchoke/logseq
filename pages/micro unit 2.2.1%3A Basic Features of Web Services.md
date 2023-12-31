@@ -1,4 +1,4 @@
-- Features of web services: ได้ับอิทธิพลมาจากแนวคิดของ OOP
+- Features of web services: ได้รับอิทธิพลมาจากแนวคิดของ OOP
 	- การซ่อนรายละเอียด
 		- ผู้ใช้มองเห็นแต่ส่วนต่อประสานหรือ Interface
 		- รายละเอียดต่างๆ ที่ไม่เกี่ยวข้องกับการใช้งานจะถูกซ่อนเอาไว้
@@ -13,9 +13,22 @@
 		- Web Services ใช้ภาษา XML + HTTP
 		- Protocol SOAP, ภาษา WSDL, UDDI มี XML เป็นพื้นฐาน
 	- Web Services มีคำอธิบายในตัวของมันเอง
-		-
+		- XML จะแยกส่วน Data และ Data Definition ออกจากกัน
+		- SOAP และ WSLD ได้ประโยชน์จากโครงสร้างแยกส่วน
+		- Code ของ WSDL สามารถแก้ไขได้โดยไม่ต้องเริ่มการทำงานของ Application ใหม่
 	- Web Services สนับสนุนการค้นหาและการเรียกใช้แบบไดนามิก
+		- การใช้ UDDI ทำให้ Application สามารถค้นหาและเรียกใช้บริการได้ใน Run Time
+		- เพราะไม่ต้องกำหนดการเรียกใช้ Web Services ไว้ก่อน จึงมีความคล่องตัวในการพัฒนา
+		- ต่อมาถูกพัฒนาและเรียกว่า JIT (Just in Time Integration)
 	-
-- Characteristics of using web services
--
--
+- Characteristics of using web services: **Web Services คือ Software Component ที่เป็นอิสระจากกันที่ส่งบริการผ่านเทคโนโลยี Internet ที่มีมาตรฐาน** จากคำจำกัดความและลักษณะบ่งชี้ที่บ่งบอกตัวตนของ Web Service สามารถสรุปลักษณะการใช้งานของ Web Services ได้ดังนี้
+	- Web Services เป็น Software Component ที่ระบุตำแหน่งโดย URI
+	- Interface และ การติดตั้ง Web Services จะนิยาย อธิบาย และค้นหาโดยใช้ภาษา XML
+	- Web Services สนับสนุนการเรียกใช้จาก Application อื่นๆ ผ่าน Internet Protocol
+	- Web Services ใช้ XML ในการส่ง Data ระหว่าง Provider และ Requester
+	- Web Services ช่วยในการทำ Cross Platform Integration
+	- Developer สามารถพัฒนา Web Services ได้จากหลายภาษา และสามารถแปลง Component ที่มีอยู่แล้วให้กลายเป็น Web Services ได้
+	- Web Services ไม่รวมส่วนแสดงผลด้วย HTML
+	- Web Services เป็น Loosely Couple Component มีอิสระและมี Function ที่สมบูรณ์ในตัวเอง
+	- ใช้มาตฐานกลางเช่น UDDI หรือ ebXML (Electronic Business using eXtensible) ในการค้นหา Web Services ทั้งแบบ Public และ Private
+	- Web Services รองรับ Client ที่หลากหลายทั้ง PC หรืออุปกรณ์พกพาอื่นๆำ
