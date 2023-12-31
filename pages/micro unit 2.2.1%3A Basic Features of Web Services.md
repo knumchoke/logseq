@@ -31,4 +31,4 @@
 	- Web Services ไม่รวมส่วนแสดงผลด้วย HTML
 	- Web Services เป็น Loosely Couple Component มีอิสระและมี Function ที่สมบูรณ์ในตัวเอง
 	- ใช้มาตฐานกลางเช่น UDDI หรือ ebXML (Electronic Business using eXtensible) ในการค้นหา Web Services ทั้งแบบ Public และ Private
-	- Web Services รองรับ Client ที่หลากหลายทั้ง PC หรืออุปกรณ์พกพาอื่นๆำ
+	- Web Services รองรับ Client ที่หลากหลายทั้ง PC หรืออุปกรณ์พกพาอื่นๆ

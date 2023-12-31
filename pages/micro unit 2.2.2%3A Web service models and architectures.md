@@ -1,0 +1,6 @@
+- Web service models
+- Workflow and service calling steps within the web service model
+- Events in Web Services Architecture
+- Web Services Component
+- Web services layer based on web services architecture standards
+- `Web service hierarchy designed by W3C
