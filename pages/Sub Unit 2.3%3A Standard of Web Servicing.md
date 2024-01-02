@@ -1,2 +1,2 @@
-- [[micro unit 2.3.1: Standard related Organization of Web Servicing]]
+- [[micro unit 2.3.1: Organizations related to web service standards]]
 - [[micro unit 2.3.2: Basic and Other Standard of Web Servicing]]

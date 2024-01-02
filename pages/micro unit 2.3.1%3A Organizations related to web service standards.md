@@ -1,0 +1,17 @@
+- message สามารถส่งได้โดยใช้ SOAP และ REST (REpresentational State Transfer)
+- Source of Standard
+	- มาตรฐานที่มีแหล่งที่มาจากการใช้งานจริง (De facto Standard): มาตรฐานที่ถูกสังคมยอมรับโดยจำเป็นต้องมีใครรับรอง
+	- มาตรฐานที่มีแหล่งที่มาจากบทบัญญัติขององค์กร (De jure Standard): มาตรฐานที่กำหนดขึ้นโดนองค์กรนิติบุคคลต่างๆ ที่มีอำนาจหน้าที่ในการกำกับดูแล เช่น IEEE, EIA
+	- ข้อกำหนด และข้อเสนอแนะของสมาคม (Specifications/Consortium recommendations): มาตรฐานที่กำหนดขึ้นโดยการรวมตัวของกลุ่มบริษัทหรือผู้ปฏิบัติงานที่เกี่ยวข้องเช่น Microsoft + IBM + Ariba ที่ร่วมกันออกข้อกำหนด ข้อเสนอแนะที่ควรเป็นมาตรฐานของ UDDI
+- Organizations that play a role in setting web service standards
+	- OASIS (Organization for the Advancement of Structured Information Standards)
+	- W3C (World Wide Web Consortium)
+	- WS-I (Web Service Interoperability)
+	- IETF (Internet Engineering Task Force)
+- Other organizations that play a role in network and Internet standards
+	- ANSI (American National Standard Institute)
+	- IEEE (Institute of Electrical and Electronics Engineers)
+	- ISO (International Standard Organization/International Organization for Standardization)
+	- EIA (Electronics Industries Association)
+	- ITU (International Telecommunication Union)
+	- IEC (International Electrotechnical Commission)
