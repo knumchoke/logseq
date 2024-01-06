@@ -5,13 +5,81 @@
 	- ข้อกำหนด และข้อเสนอแนะของสมาคม (Specifications/Consortium recommendations): มาตรฐานที่กำหนดขึ้นโดยการรวมตัวของกลุ่มบริษัทหรือผู้ปฏิบัติงานที่เกี่ยวข้องเช่น Microsoft + IBM + Ariba ที่ร่วมกันออกข้อกำหนด ข้อเสนอแนะที่ควรเป็นมาตรฐานของ UDDI
 - Organizations that play a role in setting web service standards
 	- OASIS (Organization for the Advancement of Structured Information Standards)
+		- เดิมชื่อว่า SGML Open (Standard Generalized Markup Language Open) เปลี่ยนชื่อเป็น OASIS เมื่อ 1993 (พ.ศ. 2536)
+		- เป็นองค์กรไม่หวังผลกำไร
+		- สนับสนุน Convergence (การปรับเข้าหากัน)
+		- พัฒนามาตรฐาน Web Services มากกว่าองค์กรอื่นๆ
+		- เป็นคู่แข่งกับ Open XML ของ Microsoft
+		- เป็น Open Standard สนันสนุนให้เกิดนวัตกรรม การเติบโตของตลาก และปกป้องสิทธิในการใช้ Free Technology
+		- องค์กรต่างๆ ที่ Oasis ให้การสนับสนุนโดยการเป็น Hosing ของ Web Portal มีดังนี้
+			- Conver Page
+			- XML.org
+			- AMQP
+			- Blue
+			- CGM Open
+			- Emergency
+			- IDtrust
+			- LegalXML
+			- Open CSA
+			- WS-I
 	- W3C (World Wide Web Consortium)
+		- ก่อตั้ง 1994 (พ.ศ. 2537) โดยนาย Tim Berners-Lee ผู้สร้าง www
+		- มีเครือข่ายใน 3 ภูมิภาคอของโลก
+			- MIT (Massachusetts Institute of Technology) อเมริกา
+			- INRIA (Institute National de Recherché en Informatique et  Automatique) ยุโรป
+			- Keio University ญี่ปุ่น
+		- กำหนดมาตฐานที่สำคัญของ Website ดังนี้
+			- HTML4.0 - HTML5
+			- XML 1.0
+			- XHTML 1.0
+			- CSS
+			- DOM 1
 	- WS-I (Web Service Interoperability)
+		- เป็นการร่วมก่อตั้งจากบริษัทที่เป็นผู้นำในอุตสาหกรรม เช่น `Microsoft` `IBM` `Accenture` `BEA Systems` `Fujitsu` `Hewlett-Packard` `Intel` `Oracle` `SAP` เมื่อ 2002-02-05 (พ.ศ. 2545)
+		- Missions:
+			- จัดหาแนวทางการติดตั้ง (Implementation)
+			- สนับสนุนการทำงานข้าม Platform (Interoperability)
+			- การประกาศวิสัยทัศน์ที่ชัดเจนของ Web Services
+			- ออกแบบ WS-I Basic Profile เพื่อปรับปรุงการประสานงานระหว่าง Web Services และสร้างเครื่องมือวิเคราะห์ไฟล์ WSDL และ SOAP Message
+			- WS-I Basic Profile 1.0 ได้แก้ปัญหาดังนี้
+				- HXML message encoding
+				- SOAP fault syntax
+				- SOAP message structure and processing requirements
+				- Supported versions of HTTP and SOAP
+				- HTTP header requirements and status codes
+				- Updated WSDL schema and type constrains
+				- WSDL import statements
+				- Restrictions on WSDL port types and binding
+				- Use of XML schema
+				- Description and discovery restrictions
+			- ผู้พัฒนาสามารถใส่คำประกาศไว้ในส่วนประกอบของ Web Services ได้ 3 แห่งดังนี้
+				- ใน SOAP Message
+				- ใน WSDL Description
+				- ใน UDDI Registry
+			- เข้าร่วมกับ OASIS กลายเป็น `OASIS WS-I`
 	- IETF (Internet Engineering Task Force)
+		- ก่อตั้ง 1986-01-16 (พ.ศ. 2529) จากการรวมตัวของนักวิจัยที่ได้ทุนจากรัฐบาล 21 คน
+		- แยกมากจากการยุติบทบาทของ GADS Task force (Gateway Algorithms and Data Structures)
+			- IETF (Internet Engineering Task Force)
+			- IATF (Internet Architecture Task Force)
+		- เป็นองค์กรเปิดกว้าง สมาชิกประกอบจากหลายกลุ่มที่มีความสนใจแตกต่างกัน แต่เกี่ยวข้องกับระบบเครือข่าย และการเติบโตของ Internet
+		- อยู่ภายใต้การกำกับของ IESG (Internet Engineering Steering Group)
+		- เป็นผู้สร้าง ทดสอบ และนำมาตรฐานอินเตอร์เน็ตมาใช้งาน โดบผ่านความเห็นชอบของ IESG และ IAB (Internet Architechture Board)
+		- แยกการทำงานออกเป็นสาขา (Area) ต่างๆ โดยมีผู้อำนวยการแต่ละสาขา (Area Director) และประธาน IETF จะรวมกันเปน IESG ปัจจุบันมี 9 สาขา ประกอบด้วย 133 working group
+			- Application Area
+			- General Area
+			- Internet Area
+			- Operational and Management Area
+			- Routing Area
+			- Security Area
+			- Transport Area
+			- User Services Area
+			- Sup-IP Area
+		- เป็นผู้พัฒนาและจัดทำ RFC (Request for Comment) สำหรับมาตรฐาน TCP/IP
 - Other organizations that play a role in network and Internet standards
 	- ANSI (American National Standard Institute)
-	- IEEE (Institute of Electrical and Electronics Engineers)
-	- ISO (International Standard Organization/International Organization for Standardization)
-	- EIA (Electronics Industries Association)
-	- ITU (International Telecommunication Union)
-	- IEC (International Electrotechnical Commission)
+	- IEEE (Institute of Electrical and Electronics Engineers) องค์วิชาชีพวิศวกรรมที่ใหญ่ที่สุดในโลก กำหนดมาตรฐานต่างๆ ของผลิตภัณฑ์อิเล็กโทรนิก และมาตรฐาน 802 ที่เกี่ยวข้องกับระบบเครือข่าย
+	- ISO (International Standard Organization/International Organization for Standardization) องค์กรระหว่างประเทศ กำหนดมาตรฐานสำคัญต่างๆ ให้เป็นสากล สำหรับมาตรฐานที่เกี่ยวข้องกับระบบเครือข่ายก็คือ ISO/OSI Reference Model (Networking OSI 7 Layers)
+	- EIA (Electronics Industries Association) กำหนดมาตรฐานอุปกรณ์เชื่อมต่อของอุปกรณ์โทรคมนาคม และการสื่อสารของ computer เช่น `RS-232`
+	- ITU (International Telecommunication Union) มาตรฐานที่เกี่ยวข้องกับเทคโนโลยีการสื่อสาร สังกัด UN
+	- IEC (International Electrotechnical Commission) มาตรฐานระหว่างประเทศด้านไฟฟ้า
