@@ -24,5 +24,27 @@
 			- Address: ใช้ระบุที่อยู่ของ Web Services
 		- WSDL ปัจจุบันมี 2 version คือ 1.1 และ 1.2 ที่ถูกเปลี่ยนชื่อเป็น 2.0 มีลักษณะที่ต่างกันดังตารางนี้
 		  ![wsdl-defi.png](../assets/wsdl-defi_1704545569159_0.png)
-	- UDDI
+	- UDDI เป็นมาตรฐานของ API เพื่อให้ SOAP เรียกใช้
+		- version สุดท้ายคือ 3.0.2
+		- ปัจจุบันยกเลิกบริการลงทะเบียนแล้ว
 - Other standards for web services
+  ![ws-standard.png](../assets/ws-standard_1704570397814_0.png)
+  จากรูป
+	- ในการใช้งานจริง จำเป็นต้องคำนึงถึงมาตฐานอื่นๆ ที่เกี่ยวข้องด้วย
+		- 1 ) WS-Security เป็น Framework เพื่อเชื่อมต่อกับเทคโนโลยีความปลอดภัยต่างๆ
+		- 2 ) SAML (Security Assertion Markup Language) เป็นมาตรฐานที่ทาง OASIS กำหนดขึ้นเพื่อ Support SSO และ Authentication
+		- 3 ) WS-Addressing ใช้ใน SOAP Header เพื่อระบุ Communication Protocol และ Information System
+		- 4 ) WS-BPEL (Web Services Business Process Execution Language) เป็นมาตรฐานสำหรับการทำ orchestration ของ Business Process ด้วยภาษา XML
+		- 5 ) WSRP (Web Services for Remote Portal) เป็นมาตรฐานสำหรับการเรียกใช้ Web Services จาก Portal
+	- ยังมีมาตรฐานที่เกี่ยวข้องกับการบริการผ่านเว็บอื่นๆอีก สามารถจําแนกกลุ่มมาตรฐานได้ถึง 11 กลุ่มดังนี้
+		- 1) ประเด็นการประสานและการทํางานร่วมกันข้ามแพลตฟอร์ม (Interoperability Issues)
+		- 2) ข้อกําหนดของกระบวนการทางธุรกิจ (Business Process Specifications)
+		- 3) ข้อกําหนดด้านการจัดการ (Management Specifications)
+		- 4) ข้อกําหนดด้านการนําเสนอ (Presentation Specifications)
+		- 5) ข้อกําหนดด้านเมตาดาต้า (Metadata Specifications)
+		- 6) ข้อกําหนดเรื่องความน่าเชื่อถือ (Reliability Specifications)
+		- 7) ข้อกําหนดด้านความปลอดภัย (Security Specifications)
+		- 8) ข้อกําหนดด้านรายการทรานแชคชัน (Transaction Specifications)
+		- 9) ข้อกําหนดด้านทรัพยากร (Resource Specification)
+		- 10) ข้อกําหนด้านแมสเสจจิ้ง(MessagingSpecifications)
+		- 11) ข้อกําหนดด้านเอ็กซ์เอ็มแอล (XML Specifications)
