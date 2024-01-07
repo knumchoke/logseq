@@ -1,3 +1,15 @@
 - [[Unit 1: Basic knowledge about Web Service]]
 - [[Unit 2: Web Service Infrastructure]]
 - [[Unit 3: Network models and protocols with web services]]
+- [[Unit 4: Markup and Script Language]]
+- [[Unit 5: Basic knowledge of XML language]]
+- Unit 6: SOAP in Web Services
+- Unit 7: WSDL Protocol in Web Services
+- Unit 8: UDDI
+- Unit 9: Database technology in web services
+- Unit 10: Developing and using web services
+- Unit 11 Security in providing services via the web
+- Unit 12 Policy and management in providing services through web services
+- Unit 13 Application of web services in business
+- Unit 14 Application of web services in the public sector
+- Unit 15 Trends and directions of web services
