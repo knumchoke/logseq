@@ -1,0 +1,3 @@
+- [[micro Unit 4.2.1: Importance and types of script language]]
+- [[micro Unit 4.2.2: Server Side scripting language]]
+- [[micro Unit 4.2.3: Client Side scripting language]]

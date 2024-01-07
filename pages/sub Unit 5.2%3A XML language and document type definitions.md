@@ -1,0 +1,3 @@
+- micro Unit 5.2.1: Defining document types
+- micro Unit 5.2.2: Format of document type definition
+- micro Unit 5.2.3: Format of entity declaration
