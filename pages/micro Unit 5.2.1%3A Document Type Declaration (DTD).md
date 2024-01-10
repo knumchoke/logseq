@@ -1,5 +1,0 @@
-- External DTD
-	- ประกาศ Reference ได้ที่ Prolog
-- Internal DTD
-- DTD Validation
--
