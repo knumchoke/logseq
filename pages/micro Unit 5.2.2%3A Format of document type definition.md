@@ -96,7 +96,7 @@
 	  
 	  ในตัวอย่างนี้, DTD กำหนดว่า `<book>` ต้องมี attribute `isbn` และ `genre` ซึ่งกำหนดให้ `isbn` เป็นชนิดข้อมูล CDATA และเป็น attribute ที่บังคับ (REQUIRED) ในขณะที่ `genre` มีค่าเริ่มต้นเป็น "Fiction" และใช้ชนิดข้อมูล (data type) เป็น enumeration โดยระบุให้เลือกได้เฉพาะ "Fiction" หรือ "Non-Fiction". นอกเสียจากนี้, DTD กำหนด element `<book>` ต้องมี element `<title>`, `<author>`, และ `<publicationYear>` ในภายใน.
 	- ตาราง Data Type
-	  | Attribute Type | Explaination |
+	  | <div style="width:250px">Attribute Type</div> | Explanation |
 	  |1. `CDATA` (Character Data)| หรือ `PCDATA` ใช้สำหรับข้อมูลข้อความที่ไม่ได้มีโครงสร้างเฉพาะ และอนุญาตให้ใส่อักขระพิเศษโดยไม่ต้องใช้ character references.|
 	  |2. `ID` (Identifier)| ใช้สำหรับระบุค่าที่เป็นไปตามข้อกำหนดตามชื่อที่ไม่ซ้ำกันภายในเอกสาร XML.|
 	  |3. `IDREF` (ID Reference)| ใช้สำหรับระบุค่าที่เป็นอ้างอิงถึงค่า `ID` ในเอกสาร XML.|
@@ -108,7 +108,7 @@
 	  |9. `NOTATION` (Notation Name)| ใช้สำหรับระบุค่าที่เป็นชื่อของ notation ภายใน DTD.|
 	  |10. `ENUMERATION` (Enumeration)| ใช้สำหรับระบุค่าที่จะต้องอยู่ในรายการค่าที่ถูกกำหนดล่วงหน้า.|
 	- ตารางค่าเริ่มต้นของ Attribute
-	  | Value     | Explaination |
+	  | <div style="width:150px">Value  </div>   | Explanation |
 	  |`#REQUIRED`| ระบุว่า attribute นี้เป็นบังคับและต้องระบุค่าเมื่อใช้งานอิลิเมนต์นี้ หากไม่ได้ระบุค่า attribute จะไม่ถูกตรวจสอบความถูกต้องของเอกสาร XML และเอกสารอาจถูกพิจารณาเป็นไม่ถูกต้อง|
 	  |`#IMPLIED` | ระบุว่า attribute นี้เป็นทางเลือก หากไม่ได้ระบุค่า attribute ในอิลิเมนต์ จะถือว่า attribute นี้ไม่มีค่าและเอกสาร XML ถือว่าถูกต้อง|
 	  |`#FIXED`   | ระบุค่าที่ถูกกำหนดให้ attribute มีค่าคงที่และไม่สามารถเปลี่ยนแปลงได้. ถ้า attribute ถูกระบุในอิลิเมนต์ ค่าที่ระบุในอิลิเมนต์จะถูกเปลี่ยนแปลงให้เท่ากับค่าที่ระบุใน `#FIXED`|
