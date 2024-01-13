@@ -1,0 +1,8 @@
+- Web Service development using Java
+	- create web services business logic
+	- deploy java class to soap server
+	- generate client access classes
+	- client application development
+- Server side programing
+- Client side programing
+-

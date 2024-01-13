@@ -1,3 +1,4 @@
 - [[micro Unit 5.2.1: Document Type Definition (DTD)]]
 - [[micro Unit 5.2.2: Format of document type definition]]
-- micro Unit 5.2.3: Format of entity declaration
+- [[micro Unit 5.2.3: Format of entity declaration]]
+- [[micro Unit 5.2.4: XML Schema]]

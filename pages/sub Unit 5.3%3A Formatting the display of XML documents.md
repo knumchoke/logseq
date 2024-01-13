@@ -1,2 +1,2 @@
-- micro Unit 5.3.1: Formatting document display with CSS
-- micro Unit 5.3.2: Formatting document display with XSL
+- [[micro Unit 5.3.1: Formatting document display with CSS]]
+- [[micro Unit 5.3.2: Formatting document display with XSL]]
