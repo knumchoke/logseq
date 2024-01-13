@@ -2,7 +2,11 @@
 	- create web services business logic
 	- deploy java class to soap server
 	- generate client access classes
+		- client ใช้ proxy object ในการเข้าถึง web services
+		- request time: proxy accept connection -> translate message to XML
+		- response time: proxy ได้รับ connection acknowledge จาก SOAP -> translate to Java Object -> transmit result to client application
 	- client application development
 - Server side programing
+	- เพื่อรับการติดต่อจาก remote client
+	- ใช้การ import function ที่เป็น package หรือสร้าง method ใหม่ขึ้นเอง
 - Client side programing
--
