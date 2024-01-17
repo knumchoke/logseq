@@ -1,0 +1,7 @@
+- sub unit 8.1: UDDI Basic
+	- [[micro unit 8.1.1: UDDI in Web Services]]
+	- [[micro unit 8.1.2: UDDI Structure and Element]]
+- sub unit 8.2: Call UDDI Services using API
+	- [[micro unit 8.2.1: UDDI API]]
+	- [[micro unit 8.2.2: Relation between UDDI and WSDL]]
+- sub unit 8.3: Developing and Usage of UDDI
