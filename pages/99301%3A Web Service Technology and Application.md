@@ -6,7 +6,7 @@
 - [[Unit 6: SOAP in Web Services]]
 - [[Unit 7: WSDL Protocol in Web Services]]
 - [[Unit 8: UDDI]]
-- Unit 9: Database technology in web services
+- [[Unit 9: Database technology in web services]]
 - Unit 10: Developing and using web services
 - Unit 11 Security in providing services via the web
 - Unit 12 Policy and management in providing services through web services

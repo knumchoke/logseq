@@ -5,3 +5,6 @@
 	- [[micro unit 8.2.1: UDDI API]]
 	- [[micro unit 8.2.2: Relation between UDDI and WSDL]]
 - sub unit 8.3: Developing and Usage of UDDI
+	- [[micro unit 8.3.1 Develop and use UDDI by PHP]]
+	- [[micro unit 8.3.1 Develop and use UDDI by Java]]
+	- [[micro unit 8.3.1 Develop and use UDDI by .Net]]

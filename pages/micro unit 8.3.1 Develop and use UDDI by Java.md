@@ -1,0 +1,5 @@
+- JAVA มี API ที่ใช้กับ UDDI หลายตัว
+	- UDDI4J
+	- JAXR
+	- JAX-RPC
+-

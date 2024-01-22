@@ -1,0 +1,9 @@
+- Sub Unit 9.1 DB technology and Web Services
+	- [[micro unit 9.1.1: basic knowledge for RDBMS]]
+	- [[micro unit 9.1.2: ER Model]]
+- Sub Unit 9.2 Using SQL to manage RDBMS
+	- micro unit 9.2.1: DDL
+	- micro unit 9.2.2: DML
+- Sub Unit 9.3 example of applying DB on Web Service using JAVA
+	- micro unit 9.3.1: overall example of "Users Favorite language voting" program
+	- micro unit 9.3.2: detail of "Users Favorite language voting" program

@@ -1,0 +1,7 @@
+- .Net มี UDDI SDK สามารถแบ่งได้ 5 namespace
+	- microsoft.uddi
+	- microsoft.uddi.businesses
+	- microsoft.uddi.extensions
+	- microsoft.uddi.services
+	- microsoft.uddi.tmodels
+- UDDI SDK version 2 รองรับ UDDI v2 เท่านั้น
